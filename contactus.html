@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="additional_pages.css">
+    <link rel="shortcut icon" href="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzUiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCAzNSA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTM0LjQwNjcgNi44ODI1MVYwSDBWNi44ODI1MUgxOS4zMjkyQzE2LjgwNjUgOS43NzQ3NiAxNS4xNyAxMy4zMzIzIDE0LjYxNTQgMTcuMTI5OUMxNC4wNjA5IDIwLjkyNzQgMTQuNjExNiAyNC44MDQ0IDE2LjIwMTggMjguMjk3M0MxNy43OTIgMzEuNzkwMiAyMC4zNTQ1IDM0Ljc1MTIgMjMuNTgyOCAzNi44MjY1QzI2LjgxMTIgMzguOTAxOCAzMC41Njg5IDQwLjAwMzUgMzQuNDA2NyA0MFYzMy4xMTc1QzMwLjkyNzggMzMuMTE3NSAyNy41OTEzIDMxLjczNTUgMjUuMTMxMyAyOS4yNzU1QzIyLjY3MTMgMjYuODE1NCAyMS4yODkyIDIzLjQ3OSAyMS4yODkyIDIwQzIxLjI4OTIgMTYuNTIxIDIyLjY3MTMgMTMuMTg0NSAyNS4xMzEzIDEwLjcyNDVDMjcuNTkxMyA4LjI2NDUzIDMwLjkyNzggNi44ODI1MSAzNC40MDY3IDYuODgyNTFaIiBmaWxsPSJibGFjayIvPgo8L3N2Zz4K" type="image/icon">
+    <title>7SABER - TIME TO WIN</title>
+</head>
+<body>
+    <nav>
+        <div class="nav-bar">
+            <div class="nav-bar-left">
+                <div class="burger-menu">
+                    <input type="checkbox" name="" id="open">
+                    <label for="open" class="sidebar-icon">
+                        <div class="wrapper first-wrp"></div>
+                        <div class="wrapper second-wrp"></div>
+                        <div class="wrapper third-wrp"></div>
+                    </label>
+                    <div id="sidebar-menu">
+                        <img src="https://7saber.uz/_nuxt/img/logo-black.020a62b.svg" alt="">
+                        <ul class="menu">
+                            <li><a href="men.html">Men</a></li>
+                            <li><a href="women.html">Women</a></li>
+                            <li><a href="boys.html">Boys</a></li>
+                            <li><a href="girls.html">Girls</a></li>
+                            <li><a href="shoes.html">Shoes</a></li>
+                            <li class="sales"><a href="accessories.html">Accessories</a></li>
+                            
+                            <li><a href="login.html">My account</a></li>
+                            <li><a href="login.html">Favourites</a></li>
+                            <li class="mycart"><a href="login.html">My cart</a></li>
+
+                            <li><a href="aboutus.html">About us</a></li>
+                            <li><a href="contactus.html">Contacts</a></li>
+                            <li><a href="delivery.html">Delivery</a></li>
+                            <li><a href="payment.html">Payment Methods</a></li>
+                            <li><a href="refund.html">Refund</a></li>
+                        </ul>
+                        <a href="https://play.google.com/store/apps/details?id=com.neotech.seven.saber&hl=ru&gl=US" class="target google-play">
+                            <img src="https://7saber.uz/_nuxt/img/gp.ba8cf6f.png" alt="">
+                        </a>
+                        <a href="https://apps.apple.com/uz/app/7saber/id1602509447" class="target app-store">
+                            <img src="https://7saber.uz/_nuxt/img/as.4d93715.png" alt="">
+                        </a>
+                    </div>
+                </div>
+                <div class="location">
+                    <div>
+                        <button>
+                            <img src="https://7saber.uz/_nuxt/img/Location.673a4cd.svg" alt="">
+                            <span> Uzbekistan</span>
+                        </button>
+                    </div>
+                </div>
+                <button class="language">
+                    <span class="current-lang">
+                    <span>EN</span>
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMTIiIGhlaWdodD0iMTIiIHZpZXdCb3g9IjAgMCAxMiAxMiIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICAgIDxwYXRoIGQ9Ik02LjAwMDAxIDguNDAwMDdDNS42NTAwMSA4LjQwMDA3IDUuMzAwMDEgOC4yNjUwNyA1LjAzNTAxIDguMDAwMDdMMS43NzUwMSA0Ljc0MDA3QzEuNjMwMDEgNC41OTUwNyAxLjYzMDAxIDQuMzU1MDcgMS43NzUwMSA0LjIxMDA3QzEuOTIwMDEgNC4wNjUwNyAyLjE2MDAxIDQuMDY1MDcgMi4zMDUwMSA0LjIxMDA3TDUuNTY1MDEgNy40NzAwN0M1LjgwNTAxIDcuNzEwMDcgNi4xOTUwMSA3LjcxMDA3IDYuNDM1MDEgNy40NzAwN0w5LjY5NTAxIDQuMjEwMDdDOS44NDAwMSA0LjA2NTA3IDEwLjA4IDQuMDY1MDcgMTAuMjI1IDQuMjEwMDdDMTAuMzcgNC4zNTUwNyAxMC4zNyA0LjU5NTA3IDEwLjIyNSA0Ljc0MDA3TDYuOTY1MDEgOC4wMDAwN0M2LjcwMDAxIDguMjY1MDcgNi4zNTAwMSA4LjQwMDA3IDYuMDAwMDEgOC40MDAwN1oiIGZpbGw9IiMwMDAiIC8+Cjwvc3ZnPg==">
+                    </span>
+                </button>
+            </div>
+            <div class="nav-bar-center">
+                <a href="index.html" class="logo">
+                    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzUiIGhlaWdodD0iNDAiIHZpZXdCb3g9IjAgMCAzNSA0MCIgZmlsbD0ibm9uZSIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KPHBhdGggZD0iTTM0LjQwNjcgNi44ODI1MVYwSDBWNi44ODI1MUgxOS4zMjkyQzE2LjgwNjUgOS43NzQ3NiAxNS4xNyAxMy4zMzIzIDE0LjYxNTQgMTcuMTI5OUMxNC4wNjA5IDIwLjkyNzQgMTQuNjExNiAyNC44MDQ0IDE2LjIwMTggMjguMjk3M0MxNy43OTIgMzEuNzkwMiAyMC4zNTQ1IDM0Ljc1MTIgMjMuNTgyOCAzNi44MjY1QzI2LjgxMTIgMzguOTAxOCAzMC41Njg5IDQwLjAwMzUgMzQuNDA2NyA0MFYzMy4xMTc1QzMwLjkyNzggMzMuMTE3NSAyNy41OTEzIDMxLjczNTUgMjUuMTMxMyAyOS4yNzU1QzIyLjY3MTMgMjYuODE1NCAyMS4yODkyIDIzLjQ3OSAyMS4yODkyIDIwQzIxLjI4OTIgMTYuNTIxIDIyLjY3MTMgMTMuMTg0NSAyNS4xMzEzIDEwLjcyNDVDMjcuNTkxMyA4LjI2NDUzIDMwLjkyNzggNi44ODI1MSAzNC40MDY3IDYuODgyNTFaIiBmaWxsPSJibGFjayIvPgo8L3N2Zz4K" alt="">
+                </a>
+            </div>
+            <div class="nav-bar-right">
+                <div class="search">
+                    <a href="login.html">
+                        <img src="search.png" alt="">
+                    </a>
+                </div>
+                <div class="favourites">
+                    <a href="login.html">
+                        <img src="favorite.png" alt="">
+                    </a>
+                </div>
+                <div class="cart">
+                    <a href="login.html">
+                        <img src="cart.png" alt="">
+                    </a>
+                </div>
+                <div class="user">
+                    <a href="login.html">
+                        <img src="user.png" alt="">
+                    </a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <main>
+        <div class="box">
+            <div class="contact-info">
+                <h2>Contacts</h2>
+                <h3>Contact us</h3>
+                <p>Phone: +998 99 010-77-77</p>
+                <p>Email: shop@7saber.uz</p>
+                <p>Address: 10B Beshyogoch Str. <br> 100060, Tashkent <br> Uzbekistan</p>
+                <p>On the territory of the sports complex BeFit Pro</p>
+            </div>
+            <div class="map">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2997.2049661108135!2d69.25431656695953!3d41.304404490840334!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x38ae8b9f331ae4e9%3A0x789ca92b07bca3d4!2s7SABER!5e0!3m2!1sru!2s!4v1658323401951!5m2!1sru!2s&language=undefined" frameborder="0"></iframe>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="footer">
+            <div class="first-row">
+                <div class="footer-logo">
+                    <img src="https://7saber.uz/_nuxt/img/logo-white.f53b966.svg" alt="">
+                </div>
+                <div class="footer-links">
+                    <a href="https://play.google.com/store/apps/details?id=com.neotech.seven.saber&hl=ru&gl=US" class="target google-play">
+                        <img src="https://7saber.uz/_nuxt/img/gp.ba8cf6f.png" alt="">
+                    </a>
+                    <a href="https://apps.apple.com/uz/app/7saber/id1602509447" class="target app-store">
+                        <img src="https://7saber.uz/_nuxt/img/as.4d93715.png" alt="">
+                    </a>
+                    <a href="https://www.facebook.com/7saber.uzbekistan" class="target facebook">
+                        <img src="facebook.jpg" alt="">
+                    </a>                    
+                    <a href="https://www.instagram.com/7saber" class="target insta">
+                        <img src="inst.jpg" alt="">
+                    </a>
+                    <a href="https://t.me/uzbekistan_7saber" class="target telegram">
+                        <img src="telegr.jpg" alt="">
+                    </a>               
+                </div>
+            </div>
+            <div class="second-row">
+                <h2>This website was created to fulfill Web Technology
+                    module's requirements and does not represent an actual company or service!!!</h2>
+            </div>
+            <div class="third-row">
+                <div class="offer-terms">
+                    <a href="#">Public offer</a>
+                    <a href="#">Terms of use</a>
+                </div>
+                <div class="all-rights">
+                    <p>© 7SABER, 2023. All rights reserved.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+</body>

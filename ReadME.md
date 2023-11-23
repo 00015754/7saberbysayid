@@ -1,0 +1,11 @@
+I was able to successfully recreate the website 7saber.uz for my Web Technology Module project by utilizing JavaScript, CSS, and HTML to implement various features.
+
+JavaScript is what I used to create the slider component on the website. A seamless user experience across various devices is ensured by the slider's responsiveness on both desktop and mobile screens. By pressing buttons, the content shown in the slider can be dynamically changed, making it simple to navigate and showcase various goods or pieces of information. I also used JavaScript to implement a login page. An "Alert Message" appears when the user enters their information, giving them feedback or pertinent notifications. This feature improves the website's user engagement and interactivity.
+
+In the process of creating the website, CSS was very important. For the website, I used CSS to create a visually appealing and appealing layout. Hover effects are used in the majority of the website's features, which improve user experience and add a little bit of interactivity. Because of the design's full responsiveness, users of desktop and mobile devices—including those with customized resolutions—can effortlessly utilize the features of the website.
+
+To facilitate mobile users' navigation of the website, I created a hamburger menu in HTML specifically for them. For added convenience for mobile users, the hamburger menu also features a separate scrollbar. Additionally, the navigation bar on the website is fixed, making it simple to navigate between sections regardless of where the user is scrolling. I added a footer to the website's end to give more details about the company.
+
+As a result, I was able to replicate the 7saber.uz website for my Web Technology Module assignment. I implemented an alert-messaging login page and made a responsive slider with JavaScript. The website is fully responsive and was designed with CSS, which also included hover effects. A fixed navigation bar, a footer with more information, and an improved hamburger menu were all implemented using HTML. Overall, the project demonstrates my command of web development technologies and my capacity to produce a useful and captivating website while adhering to the specifications.
+
+The GitHub Link:

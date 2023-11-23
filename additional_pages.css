@@ -1,0 +1,24 @@
+main {
+    margin-top: 4rem;
+    margin: 5rem;
+}
+
+.box {
+    display: flex;
+    justify-content: space-between;
+}
+
+.map iframe {
+    width: 772;
+    height: 311px;
+}
+
+.publicoff-privacypol a {
+    color: #00a19a;
+    margin-top: 1.7rem;
+}
+
+.publicoff-privacypol { 
+    display: flex;
+    flex-direction: column;
+}

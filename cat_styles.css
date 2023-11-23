@@ -1,0 +1,36 @@
+main {
+    margin-top: 4rem;
+}
+
+.page_title {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+}
+
+.display-flex {
+    display: flex;
+    align-items: center;
+}
+
+.product-blck {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.product_ {
+    margin: 0 0 1.7rem 1.7rem;
+    transition: all .3s;
+    width: 25.5rem; 
+}
+
+.product_:hover {
+    filter: brightness(0.8);
+}
+
+.product_ img {
+    width: 25.5rem;
+    height: 25.5rem;
+    cursor: pointer;
+}
